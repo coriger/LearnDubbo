@@ -12,6 +12,6 @@
 	<dubbo:registry address="zookeeper://120.25.254.77:2181" />
 
 	<!-- 引用的服务，那个interface一定是一个被引入到DUBBO仓库的接口定义 -->
-	<dubbo:reference  id="myService" interface="supr.service.MyService"/>
+	<dubbo:reference id="myService" interface="supr.service.MyService"/>
 
 </beans>

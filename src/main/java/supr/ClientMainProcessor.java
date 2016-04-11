@@ -27,7 +27,7 @@ public class ClientMainProcessor {
     private static Object WAITOBJECT = new Object();
 
     public static void main(String[] args) throws Exception {
-        ApplicationContext app = new ClassPathXmlApplicationContext(new String[]{"spring-client.xml"});
+        ApplicationContext app = new ClassPathXmlApplicationContext(new String[]{"spring-redis-client.xml"});
 
         // 开始RPC调用
         MyService myService = (MyService)app.getBean("myService");
